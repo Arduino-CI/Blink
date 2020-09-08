@@ -17,13 +17,11 @@ Some of the confusion (for me, at least) about how to test a sketch is that it i
 Although a [library](https://www.arduino.cc/en/main/libraries) is described in the [glossary](https://www.arduino.cc/glossary/en/) as "a software extension of the Arduino API that expands the functionality of a program," it is basically C/C++ code that can be called from a sketch. In fact, there isn't any reason you can't write essentially your entire program as a library (and even reference other libraries as needed). Consider the [original blink sketch](https://www.arduino.cc/en/Tutorial/Blink):
 
 ```
-// the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
-// the loop function runs over and over again forever
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(1000);                       // wait for a second
@@ -51,11 +49,11 @@ Then, given a library with [Blink.h](blink.h) and [Blink.cpp](Blink.cpp), we hav
 
 ## [arduino_ci](https://github.com/ianfixes/arduino_ci)
 
-The ArduinoCI Ruby gem "is a cross-platform build/test system, consisting of a Ruby gem and a series of C++ mocks. It enables tests to be run both locally and as part of a CI service like Travis or Appveyor. Any OS that can run the Arduino IDE can run `arduino_ci` ([cide](https://github.com/ianfixes/arduino_ci)). But, `arduino_ci` "can only really work on an arduino library, not an arduino sketch. So if you factor your code into classes such that the standard arduino functions like setup() and loop() are just thin wrappers around library functions" then you can run tests on it ([cite](https://github.com/ianfixes/arduino_ci/issues/139#issuecomment-613164740)).
+The ArduinoCI Ruby gem "is a cross-platform build/test system, consisting of a Ruby gem and a series of C++ mocks. It enables tests to be run both locally and as part of a CI service like Travis or Appveyor. Any OS that can run the Arduino IDE can run `arduino_ci` ([cite](https://github.com/ianfixes/arduino_ci)). But, it "can only really work on an arduino library, not an arduino sketch. So if you factor your code into classes such that the standard arduino functions like setup() and loop() are just thin wrappers around library functions" then you can run tests on it ([cite](https://github.com/ianfixes/arduino_ci/issues/139#issuecomment-613164740)).
 
 To actually see this work, do the following:
-  * copy this project (simply download the zip unless you want to fork/clone it and contribute!) into your Arduino `libraries` directory (`~/Documents/Arduino/libraries/` on macOS)
-  * copy `Blink/*` from `examples/` to your Arduino projects directory (`~/Documents/Arduino/` on macOS)
+  * copy this project (simply download the zip unless you want to fork it and contribute!) into your Arduino `libraries` directory (`~/Documents/Arduino/libraries/` on macOS)
+  * copy `Blink/` from `examples/` to your Arduino projects directory (`~/Documents/Arduino/` on macOS)
   * open the sketch in the Arduino IDE and try it out
   * open a command shell in the library directory and execute the following:
 
