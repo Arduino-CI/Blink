@@ -1,5 +1,11 @@
 # arduino_ci and Unit Tests for a Sketch
 
+## Video
+
+You can watch a [video](https://youtu.be/vaS4AU_PXQo) showing how this project can be used.
+
+## Automated Testing
+
 Any serious software project should have good tests and much work has been done to automate that process. One challenging area for testing is low-level devices, such as an [Arduino](https://www.arduino.cc/), whose primary action is setting lines to high or low voltage. One project that seems to be doing a good job of filling this gap is [arduino_ci](https://github.com/ianfixes/arduino_ci). In this project we provide a sample Arduino program with automated tests.
 
 ## Blink
