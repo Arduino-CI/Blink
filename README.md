@@ -64,7 +64,7 @@ To actually see this work, do the following:
   * open a command shell in the library directory and execute the following:
 
   ```
-  bundle install --deployment
+  bundle install --path vendor/bundle
   bundle exec arduino_ci_remote.rb
   ```
 
