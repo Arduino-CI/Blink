@@ -1,0 +1,4 @@
+build: off
+test_script:
+  - bundle install
+  - bundle exec arduino_ci.rb
