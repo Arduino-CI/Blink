@@ -11,4 +11,4 @@ before_test:
 
 test_script:
   - bundle install
-  - bundle exec arduino_ci.rb
+  - bundle exec arduino_ci_remote.rb
