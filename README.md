@@ -8,6 +8,15 @@ You can watch a [video](https://youtu.be/vaS4AU_PXQo) showing how this project c
 
 Any serious software project should have good tests and much work has been done to automate that process. One challenging area for testing is low-level devices, such as an [Arduino](https://www.arduino.cc/), whose primary action is setting lines to high or low voltage. One project that seems to be doing a good job of filling this gap is [arduino_ci](https://github.com/ianfixes/arduino_ci). In this project we provide a sample Arduino program with automated tests.
 
+ &nbsp;            | Linux | macOS | Windows
+-------------------|:------|:------|:--------
+**AppVeyor**       |       |       | [![Windows Build Status](https://ci.appveyor.com/api/projects/status/2m0y9wsawprq3i3p?svg=true)](https://ci.appveyor.com/project/prestoncarman/blink)
+**CircleCI**       | [![Linux Build Status](https://circleci.com/gh/prestoncarman/Blink/tree/2020-11-10_ci.svg?style=svg)](https://app.circleci.com/pipelines/github/prestoncarman/Blink)
+ | |
+**GitHub Actions** | ![Linux Build Status](https://github.com/prestoncarman/Blink/workflows/Arduino%20CI/badge.svg) | ![Linux Build Status](https://github.com/prestoncarman/Blink/workflows/Arduino%20CI/badge.svg) | ![Linux Build Status](https://github.com/prestoncarman/Blink/workflows/Arduino%20CI/badge.svg) 
+**Travis CI**      | [![Linux Build Status](https://ci.appveyor.com/api/projects/status/2m0y9wsawprq3i3p?svg=true)](https://ci.appveyor.com/project/prestoncarman/blink) | |
+
+
 ## Blink
 
 One of the initial Arduino tutorials is [Blink](https://www.arduino.cc/en/Tutorial/Blink), a program that simply turns an LED on and off for one second each. It is a nice demo that doesn't require any external devices and can be written in a few lines of code.

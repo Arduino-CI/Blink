@@ -4,7 +4,10 @@ on: [push, pull_request]
 
 jobs:
   runTest: 
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [windows, ubuntu, macos]
+    runs-on: ${{ matrix.os }}-latest
     steps:
       - uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
