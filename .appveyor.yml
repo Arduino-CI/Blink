@@ -1,4 +1,15 @@
+install:
+  - set PATH=C:\Ruby22\bin;%PATH%
+  - bundle install
+
 build: off
+
+before_test:
+  - ruby -v
+  - gem -v
+  - bundle -v
+  - g++ -v
+
 test_script:
   - bundle install
   - bundle exec arduino_ci.rb
