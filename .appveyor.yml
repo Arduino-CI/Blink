@@ -8,7 +8,6 @@ before_test:
   - ruby -v
   - gem -v
   - bundle -v
-  - g++ -v
 
 test_script:
   - bundle install
