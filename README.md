@@ -70,6 +70,16 @@ To actually see this work, do the following:
 
 With that you should have an application that works and has automated tests.
 
+### Example CI Configs
+
+In this repo, the Arduino-CI is used to run the test suite through several CI vendors.
+The example code for each vendor is found in the following files:
+
+* AppVeyor - `.appveyor.yml`
+* Circle CI - `.circleci/config.yml`
+* GitHub Actions - `.github/workflows/Arduino-CI.yaml`
+* Travis CI - `.travis.yml`
+
 ## Credits
 
 This Arduino example was created in September 2020 by James Foster <arduino@jgfoster.net>.
