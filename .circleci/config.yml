@@ -1,3 +1,5 @@
+version: 2.1
+
 jobs:
   arduino-ci-test:
     docker:
@@ -9,3 +11,8 @@ jobs:
           command: |
             bundle install
             bundle exec arduino_ci_remote.rb
+
+workflows:
+  arduino-ci-workflow:
+    jobs:
+      - arduino-ci-test
