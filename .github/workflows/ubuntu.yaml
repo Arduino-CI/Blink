@@ -1,13 +1,8 @@
-name: Arduino CI
-
 on: [push, pull_request]
 
 jobs:
   runTest: 
-    strategy:
-      matrix:
-        os: [windows, ubuntu, macos]
-    runs-on: ${{ matrix.os }}-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
