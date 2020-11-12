@@ -12,7 +12,7 @@ Any serious software project should have good tests and much work has been done 
 -------------------|:------|:------|:--------
 **AppVeyor**       |       |       | [![Windows Build Status](https://ci.appveyor.com/api/projects/status/2m0y9wsawprq3i3p?svg=true)](https://ci.appveyor.com/project/prestoncarman/blink)
 **CircleCI**       | [![Linux Build Status](https://circleci.com/gh/prestoncarman/Blink/tree/2020-11-10_ci.svg?style=svg)](https://app.circleci.com/pipelines/github/prestoncarman/Blink) | |
-**GitHub Actions** | ![Linux Build Status](https://github.com/prestoncarman/Blink/workflows/ubuntu/badge.svg) | ![macOS Build Status](https://github.com/prestoncarman/Blink/workflows/macos/badge.svg) | ![Windows Build Status](https://github.com/prestoncarman/Blink/workflows/windows/badge.svg) 
+**GitHub Actions** | ![Linux Build Status](https://github.com/Arduino-CI/Blink/workflows/ubuntu/badge.svg) | ![macOS Build Status](https://github.com/Arduino-CI/Blink/workflows/macos/badge.svg) | ![Windows Build Status](https://github.com/Arduino-CI/Blink/workflows/windows/badge.svg) 
 **Travis CI**      | [![Linux Build Status](https://ci.appveyor.com/api/projects/status/2m0y9wsawprq3i3p?svg=true)](https://ci.appveyor.com/project/prestoncarman/blink) | |
 
 
