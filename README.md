@@ -14,7 +14,6 @@ Any serious software project should have good tests and much work has been done 
 **CircleCI**       | [![Linux Build Status](https://circleci.com/gh/prestoncarman/Blink/tree/2020-11-10_ci.svg?style=svg)](https://app.circleci.com/pipelines/github/prestoncarman/Blink) | |
 **GitHub Actions** | [![Arduino CI](https://github.com/Arduino-CI/Blink/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci) | ![macOS Build Status](https://github.com/Arduino-CI/Blink/workflows/macos/badge.svg) | ![Windows Build Status](https://github.com/Arduino-CI/Blink/workflows/windows/badge.svg) 
 **Travis CI**      | [![Linux Status](https://travis-ci.org/Arduino-CI/Blink.svg?branch=master)](https://travis-ci.org/Arduino-CI/Blink) | |
--------------------|:------|:------|:--------
 
 
 ## Blink
