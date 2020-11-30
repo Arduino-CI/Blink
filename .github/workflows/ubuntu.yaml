@@ -1,15 +1,12 @@
-name: ubuntu
+---
+name: Arduino CI
 
 on: [push, pull_request]
 
 jobs:
-  runTest: 
+  arduino_ci:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
-      - uses: ruby/setup-ruby@v1
-        with: 
-          ruby-version: 2.6
-      - run: |
-          bundle install
-          bundle exec arduino_ci.rb
+      - uses: Arduino-CI/action@0.1.0
