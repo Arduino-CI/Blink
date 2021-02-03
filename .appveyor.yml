@@ -19,3 +19,4 @@ before_test:
 test_script:
   - bundle install
   - bundle exec arduino_ci_remote.rb
+  - Add-AppveyorTest -Name "Arduino-CI" -Framework Arduino-CI -Filename arduino_ci_remote.rb -Outcome Passed -Duration 1000 # in milliseconds
