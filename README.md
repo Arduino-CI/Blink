@@ -10,6 +10,7 @@ Any serious software project should have good tests and much work has been done 
 
  &nbsp;            | Linux | macOS | Windows
 -------------------|:------|:------|:-------
+**status, invalid url** |  |       | [![Build status](https://ci.appveyor.com/api/projects/status/i1o2rdjeego23hp7?svg=true)](https://ci.appveyor.com/project/hlovdal/blink)
 **status**         |       |       | [![Build status](https://ci.appveyor.com/api/projects/status/i1o2rdjeego23hp6?svg=true)](https://ci.appveyor.com/project/hlovdal/blink)
 **status, master** |       |       | [![Build status, master](https://ci.appveyor.com/api/projects/status/i1o2rdjeego23hp6/branch/master?svg=true)](https://ci.appveyor.com/project/hlovdal/blink/branch/master)
 **status, issue_12_troubleshooting** | | | [![Build status, issue12troubleshooting](https://ci.appveyor.com/api/projects/status/i1o2rdjeego23hp6/branch/issue_12_troubleshooting?svg=true)](https://ci.appveyor.com/project/hlovdal/blink/branch/issue_12_troubleshooting)
