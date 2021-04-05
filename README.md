@@ -10,9 +10,9 @@ Any serious software project should have good tests and much work has been done 
 
  &nbsp;            | Linux | macOS | Windows
 -------------------|:------|:------|:-------
-**AppVeyor**       |       |       | [![Build status](https://ci.appveyor.com/api/projects/status/i1o2rdjeego23hp6?svg=true)](https://ci.appveyor.com/project/hlovdal/blink)
-**AppVeyor**       |       |       | [![Build status, master](https://ci.appveyor.com/api/projects/status/i1o2rdjeego23hp6/branch/master?svg=true)](https://ci.appveyor.com/project/hlovdal/blink/branch/master)
-**AppVeyor**       |       |       | [![Build status, issue12troubleshooting](https://ci.appveyor.com/api/projects/status/i1o2rdjeego23hp6/branch/issue_12_troubleshooting?svg=true)](https://ci.appveyor.com/project/hlovdal/blink/branch/issue_12_troubleshooting)
+**status**         |       |       | [![Build status](https://ci.appveyor.com/api/projects/status/i1o2rdjeego23hp6?svg=true)](https://ci.appveyor.com/project/hlovdal/blink)
+**status, master** |       |       | [![Build status, master](https://ci.appveyor.com/api/projects/status/i1o2rdjeego23hp6/branch/master?svg=true)](https://ci.appveyor.com/project/hlovdal/blink/branch/master)
+**status, issue_12_troubleshooting** | | | [![Build status, issue12troubleshooting](https://ci.appveyor.com/api/projects/status/i1o2rdjeego23hp6/branch/issue_12_troubleshooting?svg=true)](https://ci.appveyor.com/project/hlovdal/blink/branch/issue_12_troubleshooting)
 **AppVeyor**       |       |       | [![Windows Build Status](https://ci.appveyor.com/api/projects/status/rjm4txik4wpmthh0?svg=true)](https://ci.appveyor.com/project/ianfixes/blink)
 **CircleCI**       | [![Linux Build Status](https://circleci.com/gh/prestoncarman/Blink/tree/2020-11-10_ci.svg?style=svg)](https://app.circleci.com/pipelines/github/prestoncarman/Blink) | |
 **GitHub Actions** | [![Arduino CI](https://github.com/Arduino-CI/Blink/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci) | ![macOS Build Status](https://github.com/Arduino-CI/Blink/workflows/macos/badge.svg) | ![Windows Build Status](https://github.com/Arduino-CI/Blink/workflows/windows/badge.svg) 
