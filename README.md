@@ -10,7 +10,7 @@ Any serious software project should have good tests and much work has been done 
 
  &nbsp;            | Linux | macOS | Windows
 -------------------|:------|:------|:-------
-**AppVeyor**       |       |       | [![Windows Build Status](https://ci.appveyor.com/api/projects/status/rjm4txik4wpmthh0?svg=true)](https://ci.appveyor.com/project/ianfixes/blink)
+**AppVeyor**       |       |       | [![Windows Build status](https://ci.appveyor.com/api/projects/status/3q9fp44hmpl8yjso/branch/master?svg=true)](https://ci.appveyor.com/project/ianfixes/blink/branch/master)
 **CircleCI**       | [![Linux Build Status](https://circleci.com/gh/prestoncarman/Blink/tree/2020-11-10_ci.svg?style=svg)](https://app.circleci.com/pipelines/github/prestoncarman/Blink) | |
 **GitHub Actions** | [![Arduino CI](https://github.com/Arduino-CI/Blink/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci) | ![macOS Build Status](https://github.com/Arduino-CI/Blink/workflows/macos/badge.svg) | ![Windows Build Status](https://github.com/Arduino-CI/Blink/workflows/windows/badge.svg) 
 **Travis CI**      | [![Linux Status](https://travis-ci.org/Arduino-CI/Blink.svg?branch=master)](https://travis-ci.org/Arduino-CI/Blink) | |
