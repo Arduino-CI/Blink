@@ -16,6 +16,8 @@ before_test:
   - echo before_test executed
 
 test_script:
+  - echo this should now fail
+  - false
   - echo test_script executed
 
 after_test:
